@@ -1,0 +1,3 @@
+# List of particle effects that cannot be used as walking particles
+bannedEffects:
+  - "MOBFLAME"
