@@ -1,0 +1,33 @@
+# List of particle effects that cannot be used as arrow trails
+bannedEffects:
+  - "MOBFLAME" # laggy
+  - "SPLASHPOTIONSPELL"
+  - "WARDEN_DIG_PARTICLE"
+  - "STUNNED" # infinite
+  - "BLOCK_DESTRUCT" # no effect/broken effect
+  - "BLOCK_SLIDE"
+  - "BREAKING_ITEM_ICON"
+  - "BREAKING_ITEM_TERRAIN"
+  - "BASIC_BUBBLE"
+  - "BASIC_BUBBLE_MANUAL"
+  - "BUBBLE_COLUMN_BUBBLE"
+  - "BUBBLE_COLUMN_DOWN"
+  - "BUBBLE_COLUMN_UP"
+  - "BASIC_BUBBLE_MANUAL"
+  - "CAULDRONSPELL"
+  - "CAULDRON_BUBBLE"
+  - "CAULDRON_SPLASH"
+  - "DOLPHIN_MOVE"
+  - "FISH_HOOK"
+  - "FISH_POS"
+  - "INK"
+  - "GUARDIAN_ATTACK"
+  - "GUARDIAN_WATER_MOVE"
+  - "HUGE_EXPLOSION_LAB_MISC"
+  - "SQUID_FLEE"
+  - "SQUID_INK_BUBBLE"
+  - "SQUID_MOVE"
+  - "TOTEM_MANUAL"
+  - "UNDERWATER_TORCH_BUBBLE"
+  - "VIBRATION_SIGNAL"
+  - "EYE_OF_ENDER_BUBBLE"

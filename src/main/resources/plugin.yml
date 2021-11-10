@@ -1,0 +1,11 @@
+name: WalkingParticles
+main: petterim1.walkingparticles2.WPmain
+version: "${pom.version}"
+api: ["1.0.9"]
+author: PetteriM1
+description: Walking particles plugin for Nukkit
+
+permissions:
+  walkingparticles.command:
+    description: "Permission for /walkingparticles command"
+    default: op
