@@ -2,6 +2,7 @@ package me.petterim1.walkingparticles2;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
+import cn.nukkit.event.EventPriority;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerMoveEvent;
 import cn.nukkit.level.Location;
@@ -9,7 +10,7 @@ import cn.nukkit.level.ParticleEffect;
 
 public class WPevents implements Listener {
 
-    @EventHandler(ignoreCancelled = true)
+    @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
     public void PlayerMoveEvent(PlayerMoveEvent ev) {
         Location from = ev.getFrom();
         Location to = ev.getTo();
